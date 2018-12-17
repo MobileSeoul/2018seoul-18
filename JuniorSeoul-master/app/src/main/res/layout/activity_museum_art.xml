@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MuseumArtActivity">
+
+    <ImageView
+        android:id="@+id/museumIv"
+        android:layout_width="176dp"
+        android:layout_height="187dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/museumselect" />
+
+    <ImageView
+        android:id="@+id/artIv"
+        android:layout_width="165dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/artmuseum" />
+
+    <ImageView
+        android:id="@+id/memorialIv"
+        android:layout_width="166dp"
+        android:layout_height="178dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/museumIv"
+        android:layout_alignLeft="@+id/museumIv"
+        android:layout_marginBottom="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ginyumgwan" />
+</RelativeLayout>

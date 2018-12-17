@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "896410422422",
+    "firebase_url": "https://juniorseoul-e55e8.firebaseio.com",
+    "project_id": "juniorseoul-e55e8",
+    "storage_bucket": "juniorseoul-e55e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896410422422:android:04af7a73f22bc3c1",
+        "android_client_info": {
+          "package_name": "com.example.multimedia.juniorseoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896410422422-8ps3vuvtn4psf7hef21bpbagdoqu6efe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.multimedia.juniorseoul",
+            "certificate_hash": "c2318fdb093e3672ccba65b8f08abe6df8706c3c"
+          }
+        },
+        {
+          "client_id": "896410422422-8i9fa9qbfvc3ugi9i3prl792l0kabvvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbQuYkOIBY5D6u3z4GRos9H4jViWIKslQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896410422422-8i9fa9qbfvc3ugi9i3prl792l0kabvvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
